@@ -1,0 +1,9 @@
+-
+ name: PB excecution
+ hosts: all
+ tasks: 
+ - name: code to istall ifconfig command
+   yum:
+   name: net-tool
+   state: present
+   
